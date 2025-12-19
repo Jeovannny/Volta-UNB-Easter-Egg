@@ -1,0 +1,85 @@
+/*Fonts Imports*/
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
+/*.bbh-hegarty-regular {
+  font-family: "BBH Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+/*Fim Fonts Imports*/
+
+
+:root {
+    --azul: #013f7a;
+    --verde: #018136;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--verde);
+    margin: 0;
+}
+
+/*Header*/
+header {
+    width: 100%;
+    padding: 1px;
+    margin-top: 0px;
+    background-color: #19568d;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.top-button {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+
+
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/*Fim Header*/
+
+/*Content*/
+.texto {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    padding: 0px;
+    margin: 15px;
+
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 75px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 22px;
+}
